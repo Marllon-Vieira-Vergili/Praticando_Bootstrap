@@ -1,0 +1,121 @@
+
+/*Tamanho da fonte da logo*/
+.fonte-logo{
+    font-family: Lato, sans-serif !important;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-left: 0.5rem;
+    color: #9b9898 !important;
+    
+}
+/*Tamanho da fonte dos links de Navegação*/
+.nav-link{
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 200;
+}
+
+/*Tamanho padrão das imagens do Carrossel*/
+.carrossel-img{
+    
+    max-width: 1200px;
+    width:1200px;
+    height: 632px;
+    margin-top: 10%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 10px;
+    border-radius: 10px;
+}
+/*Resolução das imagens do Carrossel para telas de no máximo 768px*/
+    @media(max-width:768px){
+        .carrossel-img{
+            margin-top: 20%;
+            height: 450px;
+            width: 600px;
+        }
+}
+
+
+
+
+/*Centralização do texto dentro da imagem do carrossel*/
+.texto-centralizado-imagem-carrossel{
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+}
+
+/*Cores da fonte do texto centralizado*/
+.fonte-texto-centralizado-imagem-carrossel{
+    font-size: 4rem;           /* aumenta o tamanho da fonte */
+    color: white;                /* texto branco */
+    text-shadow:               /* sombra maior embaixo */
+        0 2px 3px rgba(0, 0, 0, 0.8),
+        0 4px 4px rgba(0, 0, 0, 0.6),
+        0 6px 6px rgba(0, 0, 0, 0.4);
+}
+
+
+/*Sobreposição dos cards em cima das fotos do carousel*/
+.sobreposicao-cards{
+    margin-top: -150px;
+    position: relative;
+    z-index: 10;
+}
+
+@media(max-width:768px){
+    .sobreposicao-cards{
+        margin-top: 10%;
+    }
+}
+
+
+
+
+
+/*Ajuste do tamanho do bloco card*/
+.ajuste-tamanho-bloco-card{
+    width: 20rem !important;
+    height: 25rem !important;
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+/*Alinhamento dos Cards Horizontalmente dentro da imagem*/
+.alinhar-cards-horizontal{
+    display: flex;
+    justify-content: end;
+}
+@media (max-width:768px){
+    .alinhar-cards-horizontal{
+      
+    }
+}
+
+/*Tamanhos fixos das imagens de destaque*/
+.configuracoes-e-efeitos-imagem{
+    
+    max-width: 400px;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+     transition: 0.3s ease;         /* para animação suave */
+}
+
+/*Efeito esbrnquiçado passar mouse em cima das imagens*/
+.configuracoes-e-efeitos-imagem:hover{
+  opacity: 0.7;  /* mais transparente → esbranquiçada */
+}
+
+
+/*Animação Hover nas logos das Redes-soociais do rodapé*/
+.logo-rodape-animada{
+    transition: transform 0.3s ease;
+}
+.logo-rodape-animada:hover{
+    transform: scale(1.2 );
+}
