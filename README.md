@@ -75,18 +75,14 @@ Pensamento de estruturação por blocos reutilizáveis.
 💻 Como Executar
 Clone o repositório:
 
-terminal bash
-Copiar
-Editar
+abra o terminal do Git Bash, e digite o comando abaixo: 
 git clone https://github.com/Marllon-Vieira-Vergili/Praticando_Bootstrap.git
-Acesse a pasta:
 
-bash
-Copiar
-Editar
-cd Praticando_Bootstrap
+Em seguida, Acesse a pasta na IDE de sua preferência, abrindo-a:
+
+
 Abra o arquivo index.html no seu navegador.
-é recomendável utilizar o visual studio code, e intalar a extensão lLive Server para executá-lo no navegador.
+é recomendável utilizar o visual studio code, e intalar a extensão Live Server para executá-lo no navegador.
 Clique com o botão direito do mouse em cima do arquivo "index.html", e em seguida, clique em: "Open with Live server"
 O projeto deverá ser renderizado e carregado no navegador padrão
 
