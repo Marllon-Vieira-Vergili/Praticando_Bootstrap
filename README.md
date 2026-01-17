@@ -1,7 +1,22 @@
-📚 Praticando Bootstrap 5 + Fundamentos de React, HTML e CSS.
+<h1>GALERIA DE IMAGENS</h1>
+
+<div>
+
+<img width="1024" height="768" alt="Image" src="https://github.com/user-attachments/assets/1f3fb85d-3372-4905-8c24-41af69b57fdc" />
+  
+  <hr/>
+  <img width="1024" height="768" alt="Image" src="https://github.com/user-attachments/assets/56a2b126-fe7c-474b-bb44-a9cc2db495e6" />
+<hr/>
+<img width="1024" height="768" alt="Image" src="https://github.com/user-attachments/assets/dcc9e8f3-4967-4278-a030-3bbefc5f8682" />
+
+</div>
+
+<hr/>
+
+<h1>Praticando Bootstrap 5 + Fundamentos de React, HTML e CSS.</h1>
 Este projeto foi desenvolvido como prática para consolidar os conhecimentos fundamentais de Bootstrap 5, HTML e CSS, e os conceitos básicos do React. A ideia foi construir interfaces modernas e responsivas aplicando grid system, flexbox, componentização, utilitários do Bootstrap e organização de layouts, que são essenciais para qualquer desenvolvedor front-end.
 
-🛠️ Tecnologias Utilizadas:
+<h3>Tecnologias Utilizadas:</h3>
 
 1- HTML5
 
@@ -13,7 +28,7 @@ React (conceitualmente aplicado)
 
 Responsividade com Flexbox e Grid do Bootstrap
 
-🎯 Objetivo do Projeto
+<h3>Objetivo do Projeto</h3>
 Aplicar de forma prática os conceitos de layout responsivo usando Bootstrap.
 
 Consolidar a estrutura de containers, rows e cols (Grid System).
@@ -24,29 +39,9 @@ Praticar a criação de páginas com boas práticas de semântica HTML e estilo 
 
 Criar uma base visual que futuramente pode ser integrada a componentes funcionais do React.
 
-📂 Estrutura do Projeto
+<hr/>
 
-
-Praticando_Bootstrap/
-├── css/
-│   └── style.css        # Estilos customizados
-├── js/
-│   └── script.js        # (vazio ou reservado para futuras interações JS/React)
-├── img/
-│   └── ...              # Imagens usadas no projeto
-├── pages/
-│   └── ...              # Outras páginas criadas (ex: contato.html, sobre.html)
-├── index.html           # Página principal do projeto
-└── README.md            # Documentação do projeto
-🧱 Conceitos Aplicados
-✅ Bootstrap 5
-Containers (.container, .container-fluid)
-
-Grid System (.row, .col, .col-md-6, etc.)
-
-Utilitários (.text-center, .bg-primary, .p-3, .m-auto, etc.)
-
-Componentes:
+<h3>Componentes:</h3>
 
 Navbar responsiva
 
@@ -62,7 +57,7 @@ Carrossel
 Organização horizontal e vertical com d-flex, justify-content-*, align-items-*, etc.
 
 ✅ HTML5 Semântico
-Uso de tags como <header>, <main>, <section>, <footer> para estrutura limpa e clara.
+Uso de tags como header, main, section, footer para estrutura limpa e clara.
 
 ✅ CSS Customizado
 Personalização com classes próprias em style.css.
@@ -88,13 +83,14 @@ O projeto deverá ser renderizado e carregado no navegador padrão
 
 🔍 Demonstração
 Você pode ver um exemplo visual do projeto abrindo o index.html no navegador. O layout é totalmente responsivo, adaptando-se para mobile, tablets e desktops.
+<hr/>
 
-✍️ Autor
-Feito com 💻 por Marllon Vieira Vergili
+Autor
+Feito por Marllon Vieira Vergili
 
 GitHub: @Marllon-Vieira-Vergili
 
-LinkedIn: https://www.linkedin.com/in/marllon-vieira-vergili-00553a208/
+LinkedIn: https://www.linkedin.com/in/marllon-vieira/
 
 📌 Observações
 Este projeto faz parte de uma jornada de aprendizado constante. Os conceitos aplicados aqui servem como base para projetos maiores com React, onde os mesmos princípios de layout e responsividade continuam sendo fundamentais.
